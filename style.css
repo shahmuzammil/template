@@ -7,8 +7,52 @@ body {
     overflow: hidden;
     background-color: #e9e9e9;
   }
+
+
+  .main {
+    /* z-index: 2; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imgames/Designer.png);
+    /* background-color: yellow; */
+    height: 500px;
+
+    position: relative;
+}
+
+.for-img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.sub1 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.6;
+    position: absolute;
+    top: 200px;
+}
+
+.input {
+    position: absolute;
+    left: 50px;
+    bottom: 95px;
+}
+
+.butt {
+    position: absolute;
+    left: 200px;
+    border-radius: 25px;
+    background-color: yellow;
+    color: #635439;
+}
+
+
+
   
-  .topnav a {
+   .topnav a {
     float: left;
     display: block;
     color: black;
@@ -51,7 +95,7 @@ body {
       border: 1px solid #ccc;
     }
   }
-  
+
   
   .header {
     background-color: #f44336;
@@ -143,9 +187,9 @@ body {
   }
   
   .image img {
-    width: 50%;
-    /* max-width: 400px; */
-    height: 350px;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
   }
   
   .button {
